@@ -18,3 +18,5 @@ A simple Python application used to demonstrate Continuous Integration with Jenk
 
 ## Continuous Integration
 Every push to `main` triggers a Jenkins build via a GitHub webhook. The build runs the unit tests and fails if any of the tests fails.
+
+Builds are triggered automatically by a GitHub webhook.
